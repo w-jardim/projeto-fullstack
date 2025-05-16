@@ -19,3 +19,37 @@ main {
     jjustify-content: space -between;
     padding: 20px;
 }
+#produtos {
+    flex: 3;
+    
+}
+.produto {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: ;
+}
+.produto img {
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+#carrinho {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 20px;
+}
+button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover {
+    background-color: #45a049;
+}
